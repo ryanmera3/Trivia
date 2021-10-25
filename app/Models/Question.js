@@ -9,6 +9,6 @@ export class Question {
   }
 
   get Template() {
-    return `<h3 class="mt-3 text-center">${this.question}</h3>`
+    return `<h3 class="mt-5 text-center">${this.question}</h3>`
   }
 }
