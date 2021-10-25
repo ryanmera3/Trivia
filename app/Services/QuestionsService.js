@@ -18,10 +18,10 @@ class QuestionsService {
   async correctAnswer(answer) {
     console.log(answer, ProxyState.correct)
     if (answer == ProxyState.correct) {
-      alert("You guessed right")
+      alert("Correct")
       return this.getQuestion()
     }
-    alert("incorrect")
+    alert("Incorrect")
   }
 
 }
